@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Inventory</string>
+    <string name="test_product_name">Fire Stick</string>
+    <string name="test_price">35</string>
+    <string name="test_supplier_name">Amazon</string>
+    <string name="test_supplier_phone">1 (888) 280 4331</string>
 </resources>

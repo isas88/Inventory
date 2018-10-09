@@ -13,11 +13,11 @@ public class InventoryContract {
         //define table and field names
         public final static String TABLE_NAME = "inventory";
         public final static String _ID = BaseColumns._ID;
-        public final static String COLUMN_PRODUCT_NAME = "Product Name";
+        public final static String COLUMN_PRODUCT_NAME = "Product_Name";
         public final static String COLUMN_PRICE = "Price";
         public final static String COLUMN_QUANTITY = "Quantity";
-        public final static String COLUMN_SUPPLIER_NAME = "Supplier Name";
-        public final static String COLUMN_SUPPLIER_PHONE = "Supplier Phone Number";
+        public final static String COLUMN_SUPPLIER_NAME = "Supplier_Name";
+        public final static String COLUMN_SUPPLIER_PHONE = "Supplier_Phone_Number";
 
     }
 
