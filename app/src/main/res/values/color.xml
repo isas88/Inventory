@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorButton">#4CAF50</color>
+    <color name="text_label">#004D40</color>
+    <color name="color_delete">#E53935</color>
+    <color name="color_delete_end">#BF360C</color>B71C1C
+    <color name="color_no_item">#BDBDBD</color>
+    <color name="color_button_end">#388E3C</color>
+    <color name="colorRed">#ff0000</color>
+
+</resources>

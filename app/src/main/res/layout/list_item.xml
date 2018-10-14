@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of pets -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        style="@style/wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3">
+    <TextView
+        android:id="@+id/name"
+        style="@style/match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:text="@string/name_default"
+        android:padding="@dimen/padding"
+        />
+
+    <TextView
+        android:id="@+id/summary"
+        style="@style/match_parent"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/darker_gray"
+        android:text="@string/supp_default"
+        android:padding="@dimen/padding" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/quantity"
+        style="@style/wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/black"
+        android:text="@string/quantity_default"
+        android:padding="@dimen/padding"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/sale_btn"
+        style="@style/Txt_style_button"
+        android:background="@color/colorAccent"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:text="@string/sale"
+        android:textColor="@android:color/white"
+        android:focusable="false"
+        android:layout_weight="1"/>
+
+</LinearLayout>

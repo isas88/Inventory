@@ -19,17 +19,15 @@ public class InventoryDBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String SQL_Create_Inventory = "CREATE TABLE " + InventoryDB.TABLE_NAME + "("
                 + InventoryDB._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-                + InventoryDB.COLUMN_PRODUCT_NAME + "TEXT NOT NULL, "
-                + InventoryDB.COLUMN_PRICE + "INTEGER NOT NULL, "
-                + InventoryDB.COLUMN_QUANTITY + "INTEGER NOT NULL, "
-                + InventoryDB.COLUMN_SUPPLIER_NAME + "TEXT NOT NULL, "
-                + InventoryDB.COLUMN_SUPPLIER_PHONE + "TEXT DEFAULT '(000) 000-0000);";
+                + InventoryDB.COLUMN_PRODUCT_NAME + " TEXT NOT NULL, "
+                + InventoryDB.COLUMN_PRICE + " INTEGER NOT NULL, "
+                + InventoryDB.COLUMN_QUANTITY + " INTEGER NOT NULL, "
+                + InventoryDB.COLUMN_SUPPLIER_NAME + " TEXT NOT NULL, "
+                + InventoryDB.COLUMN_SUPPLIER_PHONE + " TEXT DEFAULT '0' );";
 
         db.execSQL(SQL_Create_Inventory);
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
-    }
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {}
 }
